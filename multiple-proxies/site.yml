@@ -1,0 +1,4 @@
+- import_playbook: "stratum1.yml"
+- import_playbook: "proxies.yml"
+- import_playbook: "clients.yml"
+

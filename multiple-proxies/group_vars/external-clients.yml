@@ -1,0 +1,5 @@
+---
+  vars:
+    local_cvmfs_http_proxies:
+      - eessi-external-proxy-01:3128
+

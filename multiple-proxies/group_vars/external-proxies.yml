@@ -1,0 +1,7 @@
+# External clients have their own proxy.
+# We only accept connections from link-local though,
+# so this probably should be updated.
+---
+vars: 
+    local_cvmfs_http_proxies_allowed_clients:
+        - 169.254.0.0/16

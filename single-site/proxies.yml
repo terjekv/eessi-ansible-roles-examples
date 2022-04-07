@@ -1,0 +1,13 @@
+- hosts: proxies
+  roles:
+  - eessi.proxy
+
+  vars:
+    # List of clients allowed to access your local proxies.
+    # Add individual IPs and/or use CIDR notation.
+    local_cvmfs_http_proxies_allowed_clients:
+      - 192.168.0.0/12
+      - 10.0.0.15
+
+    # If you want to use your own Squid configuration template for the local proxies
+    # local_proxies_cvmfs_squid_conf_src: "/path/to/your/template"

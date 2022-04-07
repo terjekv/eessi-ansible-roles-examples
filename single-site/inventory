@@ -1,0 +1,12 @@
+# file: inventory
+[clients]
+client01
+client02
+hpc-node[01-50]
+
+[proxies]
+eessi-proxy01
+eessi-proxy02
+
+[stratum1]
+stratum1

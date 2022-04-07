@@ -1,0 +1,4 @@
+roles:
+  - name: eessi.roles
+    src: https://github.com/EESSI/ansible-eessi-roles
+    version: develop

@@ -1,0 +1,6 @@
+# This gives the netmask for clients to connect to
+# the default proxies.
+---
+vars: 
+    local_cvmfs_http_proxies_allowed_clients:
+        - 192.168.0.0/24

@@ -1,0 +1,11 @@
+- hosts: clients
+  roles:
+  - eessi.client
+
+  vars:
+    # List of all http proxies that should be configured for the clients.
+    # Remove or comment the line if you do not want to use a proxy; in this
+    # case it will be set to "DIRECT" in the client configuration.
+    local_cvmfs_http_proxies:
+      - eessi-proxy01:3128
+      - eessi-proxy02:3128
