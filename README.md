@@ -4,7 +4,7 @@ This repository is an example of how to use https://github.com/terjekv/ansible-e
 
 # Example 1, a single site unified setup
 
-[This example](single-site/README.md) sets up a site with:
+[This example](single-site/) sets up a site with:
 
 1. One stratum1
 2. Two proxies
@@ -12,7 +12,7 @@ This repository is an example of how to use https://github.com/terjekv/ansible-e
    
 # Example 2, a setup with multiple proxies and multiple client configurations
 
-[This example](multiple-proxies/README.md) sets up a site with:
+[This example](multiple-proxies/) sets up a site with:
 
 1. One stratum1
 2. Six proxies (two internal, two HPC, two public)
